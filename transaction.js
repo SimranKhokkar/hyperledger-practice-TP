@@ -7,7 +7,7 @@ const path = require('path');
 const fs = require('fs');
 const jsonfile = require('jsonfile');
 
-const helper = require('./lib/helper');
+const helper = require('./helper');
 
 const context = createContext('secp256k1')
 const privateKey = context.newRandomPrivateKey()
