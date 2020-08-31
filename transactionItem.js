@@ -1,5 +1,5 @@
 const cbor = require('cbor')
-const { getSenderAddress } = require('../transactionProcess/lib/helper');
+const { getSenderAddress } = require('./helper');
 
 class TPItem {
   /**
