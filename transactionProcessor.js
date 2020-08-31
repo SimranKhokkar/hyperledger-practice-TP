@@ -1,7 +1,7 @@
 const { TransactionHandler } = require('sawtooth-sdk/processor/handler');
 const { InternalError, InvalidTransaction } = require('sawtooth-sdk').exceptions;
 const transactionItem = require('./transactionItem');
-const { decodeData, hash, getNamespace } = require('./lib/helper');
+const { decodeData, hash, getNamespace } = require('./helper');
 
 const SW_FAMILY = 'first_TP';
 const SW_NAMESPACE = getNamespace(SW_FAMILY);
