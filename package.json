@@ -1,0 +1,21 @@
+{
+  "name": "transactionprocess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cbor": "^5.0.1",
+    "crypto": "^1.0.1",
+    "jsonfile": "^6.0.1",
+    "request": "^2.88.2",
+    "sawtooth-sdk": "^1.0.5"
+  }
+}
