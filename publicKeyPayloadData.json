@@ -2,8 +2,8 @@
     "request": {
         "transactionType": "add",
         "data": {
-            "name": "Simran"
+            "name": "Test"
         },
-        "userPublicKey": "03126d1650e1aac4c3c5a605e76393558cff891db00388b9fd99dd7ee8b77bd94f"
+        "userPublicKey": "****"
     }
 }
